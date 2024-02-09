@@ -15,11 +15,16 @@
             height: 100vh;
             border: none;
         }
+        @media only screen and (max-width: 600px) {
+            iframe {
+                height: 80vh; /* Ajustar la altura para dispositivos móviles según sea necesario */
+            }
+        }
     </style>
 </head>
 <body>
 
-    <iframe src="/assets/pdf/catalogo picacho.pdf" title="Visor de PDF"></iframe>
+    <iframe src="/assets/pdf/catalogo picacho.pdf" title="Visor de PDF" scrolling="auto"></iframe>
 
 </body>
 </html>
