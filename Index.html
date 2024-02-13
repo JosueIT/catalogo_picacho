@@ -14,10 +14,13 @@
             width: 100%;
             height: 100vh;
             border: none;
+            display: block; /* Añadir display: block para evitar posibles problemas de presentación */
         }
         @media only screen and (max-width: 600px) {
             iframe {
-                height: 80vh; /* Ajustar la altura para dispositivos móviles según sea necesario */
+                height: 80vh;
+                max-width: 100%; /* Añadir un ancho máximo para dispositivos móviles */
+                margin: 0 auto; /* Centrar el iframe en dispositivos móviles */
             }
         }
     </style>
