@@ -7,13 +7,4 @@ iframe {
     width: 100%;
     height: 100vh;
     border: none;
-    display: block;
-    overflow: auto; /* Añadir overflow: auto para permitir desplazamiento en el iframe */
-}
-@media only screen and (max-width: 600px) {
-    iframe {
-        height: auto; /* Ajustar la altura automáticamente según el contenido */
-        max-width: 100%;
-        margin: 0 auto;
-    }
 }
